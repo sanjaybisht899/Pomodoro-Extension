@@ -6,14 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pomodoro Extension</title>
     <link rel="stylesheet" href="options.css">
+    <link href="/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">   
 </head>
 <body>
-    <h1>Pomodoro Timer Options</h1>
-    <label> 
-        Default is 1 to 60
-        <input id="time-option"type="number" min="1" max="60" value"25"/>
-    </label>
-    <button id="save-btn">Save Options</button>
+    <div class="card container-sm mt-5 pt-5 pb-5" style="max-width: 40rem; align-items: center; ">
+        <div class="row">
+            <h1 class="text-center display-6">Pomodoro Timer Options</h1>
+        </div>
+        <div class="row mt-3">
+            <form>
+                <div class="form-group">
+                    <label class="my-1" for="time-option">Enter Your Custom Time</label>
+                    <input type="number" class="form-control my-2 mb-4" id="time-option" min="1" max="60" value"25">
+                </div>
+                <div class="form-group text-center">
+                    <button id="save-btn" class="btn btn-sm btn-primary">Save Options</button>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 <script src="options.js"></script>
+<script src="/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </html>
