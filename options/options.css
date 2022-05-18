@@ -1,0 +1,10 @@
+#header h1{
+    display: inline;
+}
+.card { background-color: rgba(245, 245, 245, 0.4); }
+.card-header, .card-footer { opacity: 1}
+body {
+    background-image: url('/images/Capture.PNG');
+    
+  }
+
