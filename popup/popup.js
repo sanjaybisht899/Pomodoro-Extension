@@ -55,6 +55,7 @@ function renderTasK(taskNum){
     text.type = "text"
     text.placeholder="Enter a Task.."
     text.value = tasks[taskNum]
+    text.className = "taskinputs"
     text.addEventListener("change",()=>{
         tasks[taskNum]=text.value
         saveTasks()
@@ -64,6 +65,7 @@ function renderTasK(taskNum){
     const deletebtn = document.createElement("input")
     deletebtn.type = "button"
     deletebtn.value = "X"
+    deletebtn.className = "deleteinput "
     deletebtn.addEventListener("click",()=>{
         deleteTask(taskNum)
     })

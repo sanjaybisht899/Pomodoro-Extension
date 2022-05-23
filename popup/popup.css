@@ -16,6 +16,28 @@ body{
     
 }
 #task-container{
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    padding: 20px;
+
+}
+.taskinputs{
+    outline: transparent;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 10px 5px 10px;
+    width: 200px;
+}
+.deleteinput{
+    outline: #4fc39700;
+    border: 1px solid #f61e1e;
+    height: 36px;
+    width: 26px;
+    border-radius: 4px;
+    color: indianred;
+    background-color: lightcoral;
+    font-weight: 700;
+    
 }
