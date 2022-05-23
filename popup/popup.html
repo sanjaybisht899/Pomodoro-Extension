@@ -6,29 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="popup.css" />
-    <link href="/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link
+      href="/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <img class="img-fluid" src="../icon.png" />
-            </div>
-            <div class="col-sm">
-                <h1>Pomodoro</h1>
-            </div>
-        </div>
-      <div class="header">
-        
-        
+    <div class="container" style="align-items: center">
+      <div id="header">
+        <img src="../icon.png" width="50rem" height="50rem" alt="" />
+        <h5 class="text-center display-6">Pomodoro Timer</h5>
       </div>
-      <h1 id="time"></h1>
-      <button id="start-timer-btn">Start Timer</button>
-      <button id="reset-timer-btn">Reset Timer</button>
-      <button id="add-task-btn">Add Task</button>
-      <div id="task-container"></div>
+      <div class="row mt-3" id="timerstyle">
+        <h1 class="text-center display-1" id="time"></h1>
+      </div>
+      <div class="row mt-2 justify-content-center">
+        <div class="col text-center">
+          <button class="btn btn-sm btn-primary" id="start-timer-btn">Start Timer</button>
+        </div>
+        <div class="col text-center">
+          <button class="btn btn-sm btn-primary" id="reset-timer-btn">Reset Timer</button>
+        </div>
+      </div>
+      <div class="row  mt-3  mb-3 text-center ">
+        <div class="col align-self-center">
+          <button class="btn btn-xl btn-primary" id="add-task-btn">Add Task</button>
+        </div>
+      </div>
+        <div class="row mt-1 text-center" id="task-container">
+      </div>
     </div>
   </body>
   <script src="popup.js"></script>
-  <script src="/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script
+    src="/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+  ></script>
 </html>
