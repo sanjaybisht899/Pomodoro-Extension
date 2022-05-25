@@ -1,6 +1,7 @@
 body{
     height: 400px;
     width: 300px;
+    background-color: #d61818d6;
 }
 #header{
     display: flex;
@@ -29,6 +30,7 @@ body{
     margin: 5px;
     padding: 5px 10px 5px 10px;
     width: 200px;
+    background-color: #fdfdfd8a;
 }
 .deleteinput{
     outline: #4fc39700;
@@ -36,8 +38,12 @@ body{
     height: 36px;
     width: 26px;
     border-radius: 4px;
-    color: indianred;
-    background-color: lightcoral;
+    color: rgb(161, 9, 9);
+    background-color: #fdfdfd8a;
     font-weight: 700;
     
 }
+.btn-danger{
+    --bs-btn-bg: #cf1224;
+}
+

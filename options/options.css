@@ -1,10 +1,28 @@
 #header h1{
     display: inline;
 }
-.card { background-color: rgba(245, 245, 245, 0.4); }
-.card-header, .card-footer { opacity: 1}
+.card{ 
+    background-color: rgba(255, 255, 255, 0.3);
+    max-width: 45rem;
+    align-items: center; 
+    background-color: #ed393a4d;
+    border: var(--bs-card-border-width) solid rgb(255 255 255 / 41%);
+}
+
 body {
     background-image: url('/images/Capture.PNG');
+    background-repeat: cover;
     
   }
-
+.form-control{
+    background: transparent;
+}
+.form-control:focus, .form-control:active {
+    background: transparent;
+}
+.input{
+    background: transparent;
+}
+.btn-danger{
+    --bs-btn-bg: #cf1224;
+}
