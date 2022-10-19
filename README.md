@@ -1,2 +1,2 @@
-# Pomodoro-Extinction
- Chrome Extinction For Pomodoro TImer
+# Pomodoro-Extension
+ Chrome Extension For Pomodoro TImer
